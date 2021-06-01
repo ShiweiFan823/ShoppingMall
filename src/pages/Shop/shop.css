@@ -1,0 +1,19 @@
+.shop-type span{
+    display: inline-block;
+    cursor: pointer;
+    height: 30px;
+    line-height: 30px;
+    padding: 0 10px;
+    
+
+}
+.shop-type span.active{
+    background-color: aqua;
+    /* color: white; */
+}
+.tip{
+    text-align: center;
+    color: #aaa;
+    border: none;
+   flex-basis: 100%;
+}

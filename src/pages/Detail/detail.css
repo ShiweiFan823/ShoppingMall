@@ -1,0 +1,42 @@
+.my-header{
+    height: 40px;
+    line-height: 40px;
+    position: relative;
+    /* text-align: center; */
+    padding-left: 60px;
+    box-sizing: border-box;
+}
+.my-header .back{
+    position: absolute;
+    left: 10px;
+    cursor: pointer;
+}
+.mar10{
+    margin: 10px;
+}
+.title{
+    text-align: left;
+}
+.price{
+    height: 100px;
+    line-height: 100px;
+    background-color: #eee;
+}
+.detail .img-box{
+    width: 400px;
+    height: 300px;
+    overflow: hidden;
+    position: relative;
+}
+.detail .img-box img{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+.detail img{
+    padding: 10px;
+}
+.des-box{
+    flex: 1 1 50%;
+}
